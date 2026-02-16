@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server",
+    "start": "node init && nodemon server",
     "local-server": "nodemon localDataServer"
   },
   "keywords": [],
